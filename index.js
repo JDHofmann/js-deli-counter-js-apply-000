@@ -1,15 +1,25 @@
 var katzDeliLine = [];
 
-function takeANumber( katzDeliLine, newName){
+// function takeANumber( katzDeliLine, newName){
 
-  // add newName to takeANumber array
-  // return index of newName and + 1
+//   // add newName to takeANumber array
+//   // return index of newName and + 1
   
-  var x = katzDeliLine.push( newName );
+//   var x = katzDeliLine.push( newName );
   
-  return 'Welcome, ' +  newName +'. You are number '+ x +' in line.' 
+//   return 'Welcome, ' +  newName +'. You are number '+ x +' in line.' 
 
+// }
+
+function takeANumber( katzDeliLine, newCustomer ){
+  let newCustomer = 0;
+  newCustomer += 1;
+  
+  let x = katzDeliLine.push(newCustomer)
+  
+  // return 'Welcome. You are number' + x + 'in line.'
 }
+
 
 function nowServing(katzDeliLine){
   if(katzDeliLine.length===0){
